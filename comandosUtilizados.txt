@@ -1,0 +1,42 @@
+    1  touch comandos.txt main.js index.html
+    2  git init
+    3  git add .
+    4  git remote add origin https://github.com/xsparingdust/20230605-JoseRodolfoMendiolaPalacios.git
+    5  git commit -m "01 de JoseRodolfoMendiolaPalacios"
+    6  git push -u origin main
+    7  git branch feature01
+    8* 
+    9  mkdir Terminal Hardware
+   10  cd Terminal/
+   11  touch resumen.txt
+   12  cd ..
+   13  cd Hardware/
+   14  touch resumen.txt
+   15  cd ..
+   16  git push -u origin feature01
+   17  git push -u origin feature01
+   18  git branch feature02
+   19  git checkout feature02
+   20  git checkout feature01
+   21  git add .
+   22  git commit -m "02 de JoseRodolfoMendiolaPalacios"
+   23  git push -u origin feature01
+   24  git checkout feature02
+   25  git checkout feature01
+   26  git add .
+   27  git push origin feature02
+   28  git checkout feature02
+   29  git checkout feature01
+   30  git merge feature02
+   31  git checkout feature02
+   32  git checkout feature01
+   33  git checkout feature02
+   34  git merge feature01
+   35  git push origin feature02
+   36  git checkout main
+   37  mv comandos.txt comandosUtilizados.txt
+   38  git commit -m "04 de JoseRodolfoMendiolaPalacios"
+   39  git add .
+   40  git commit -m "04 de JoseRodolfoMendiolaPalacios"
+   41  git push origin main
+   42  history>comandosUtilizados.txt 

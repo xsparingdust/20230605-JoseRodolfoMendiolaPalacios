@@ -1,0 +1,7 @@
+Git config user.name Nombre
+Git config user.email email@email.com
+Git commit -m “mensaje”
+Git remote add origin “Nombre del repositorio”
+Git push origin main
+Git merge “Nombreconlaqueseunira”
+Git log 
